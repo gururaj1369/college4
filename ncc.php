@@ -47,7 +47,7 @@ p{
 
 <div class="row page-content">
 		<div class="container clear-fix">
-			<div class="grid-col-row">
+			<div class=" grid-col-row">
 				<div class="grid-col grid-col-8">
 					<!-- main content -->
 					<main>

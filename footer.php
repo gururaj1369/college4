@@ -36,16 +36,15 @@
 			<div class="col-md-3 mb-3 col-12  ">
 				<h5>Important Links</h5>
 				<ul>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>Governing Body</a></li>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>Academic Council
+<li><a target="_blank" href="governing-body.php"><i class="fas fa-caret-right"></i>Governing Body</a></li>
+<li><a target="_blank" href="academic-council.php"><i class="fas fa-caret-right"></i>Academic Council
 </a></li>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>Disciplinary Committee
+<li><a target="_blank" href="disciplinary-committee.php"><i class="fas fa-caret-right"></i>Disciplinary Committee
 </a></li>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>NAAC Women Protection Cell
+<li><a target="_blank" href="woman-protection-cell.php"><i class="fas fa-caret-right"></i>NAAC Women Protection Cell
 </a></li>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>Reconstitute anti-ragging Committee</a></li>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>Student Satisfaction Survey</a></li>
-<li><a target="_blank" href="#"><i class="fas fa-caret-right"></i>Grievance Redressed Committee
+<li><a target="_blank" href="anti-ragging.php"><i class="fas fa-caret-right"></i>Reconstitute anti-ragging Committee</a></li>
+<li><a target="_blank" href="grievance-committee.php"><i class="fas fa-caret-right"></i>Grievance Redressed Committee
 </a></li>
 
  
@@ -248,5 +247,26 @@
          });
           
       </script>
+      <script> 
+      /**/
+/*  toogles  */
+/**/
+$('.toggles .active').next().show();
+$(".toggles .content-title").on( 'click', function(){
+  $(this).toggleClass('active');
+  $(this).next().stop().slideToggle(500); 
+})
+
+/**/
+/* accordions */
+/**/
+$('.accordions .active').next().show();
+$(".accordions .content-title").on( 'click', function(){
+
+    $(this).addClass('active').siblings("div").removeClass('active');
+    $(this).siblings('.content').slideUp(500);
+    $(this).next().stop().slideDown(500);
+})
+</script>
    
 </body></html>

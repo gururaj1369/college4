@@ -3077,3 +3077,149 @@ main>.portfolio-item + hr {
     margin-top: 30px;
   }
 }
+/**/
+/* contact form */
+/**/
+.contact-form input[name="email"]::-webkit-input-placeholder:after,
+.contact-form input[name="name"]::-webkit-input-placeholder:after{
+   content: "*";
+   font-size: 25px;
+   line-height: 15px;
+   color: red;
+   margin-left: 1px;
+}
+.contact-form .cws-button {
+  float: right;
+}
+.contact-form input[name="email"]::-moz-input-placeholder:after,
+.contact-form input[name="name"]::-moz-input-placeholder:after{
+   content: "*";
+   color: red;
+}
+.widget-contact-form input[type='text'] {
+  height: 38px;
+}
+.widget-contact-form input[type='text'],
+.widget-contact-form textarea {
+  border: 1px solid #e1e1e1;
+  line-height: 36px;
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+.widget-contact-form input[type='text'].error,
+.widget-contact-form textarea.error {
+  background-color: #f8bdb2;
+}
+.widget-contact-form label span {
+  color: #f27c66;
+}
+
+/**/
+/* accordions and toggles*/
+/**/
+.accordion, .toggles {
+  color: #595959;
+  font-size: 15px;
+}
+.accordions + * {
+  margin-top: 15px;
+}
+.accordions .content, .toggles .content {
+  display: none;
+}
+.accordions .content-title, .toggles .content-title {
+  font-weight: 500;
+  padding: 5px 0 8px 40px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.accordions .content-title {
+  border: 1px solid #e6e6e6;
+  padding: 2px 0 2px 40px;
+  margin-top: 10px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+.accordions .content-title:hover {
+  border-color: #b0b0b0;
+}
+.accordions .content-title:after, .toggles .content-title:after {
+  border: 1px solid #18bb7c;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #18bb7c;
+  content: "\f067";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.accordions .content-title.active:after, .toggles .content-title.active:after {
+  content: "\f068";
+  background-color: #18bb7c;
+  color: #ffffff;
+}
+.accordions .content-title:after {
+  color: #b1b1b1;
+  background-color: transparent !important;
+  border: none;
+  height: 28px;
+  line-height: 28px;
+  top: 0;
+}
+.accordions .content-title.active:after {
+  background-color: #f27c66;
+}
+.toggles .content {
+  padding: 0px 0 8px 40px;
+}
+.accordions .content {
+  padding: 5px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #e6e6e6;
+  border-bottom-right-radius: 2px;
+  -moz-border-bottom-right-radius: 2px;
+  -ms-border-bottom-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -moz-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+}
+.accordions .content-title.active {
+  color: #ffffff;
+  background-color: #18bb7c;
+  border-color: #18bb7c;
+  border-bottom: 0;
+  -webkit-box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.15);
+  -moz-box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.15);
+  box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.15);
+}
+.toggles .content-title:hover {
+  color: #18bb7c;
+}
+.toggles .content-title.active {
+  color: #18bb7c;
+}

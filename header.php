@@ -75,7 +75,7 @@
 		<div class="ft_sz14 text-center  ft_wt600 ">COUNSELING CODE : <strong> VREC </strong></div>
 		</div>	
 		<div class="col-md-2  col-6 pr-0  ">
-			<a href="#" data-toggle="modal" data-target="#borcherDownload" class="dw_button">Admission Enquiry</a>
+			<a href="https://docs.google.com/forms/d/e/1FAIpQLSfA-uKBQ7MWfKUg_KfETPpJG47x2L-32t3TzvTHkLPCSFS_eA/viewform"  class="dw_button" target="_blank">Grievance Portal</a>
 		</div>
 		</div>
 		 </div>
@@ -151,7 +151,7 @@
 	 <li><a class="dropdown-item " href="ece.php">ECE</a> </li> 
 	 <li><a class="dropdown-item " href="eee.php">EEE</a> </li> 
 	 <li><a class="dropdown-item " href="mba.php">MBA</a> </li> 
-	 <li><a class="dropdown-item " href="bsh.php">BSH</a> </li> 
+	 <li><a class="dropdown-item " href="bsh-faculty.php">BSH</a> </li> 
      
     </ul>
       </li>
